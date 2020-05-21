@@ -3,7 +3,7 @@ def right_rotate(l,n):
     for i in range(len(l)-n,len(l)):
         result.append(l[i])
     for j in range(0,len(l)-n):
-        result.append(l[j])
+        result.append(l[j]) 
     return result
 
 l=[]
