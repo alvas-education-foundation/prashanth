@@ -4,7 +4,7 @@ lass StringOperators {
  public static void main(String args[]) { 
 int i; String str; 
  int counter[] = new int[256];
- Scanner in = new Scanner(System.in); 
+ Scanner in = new Scanner(System.in);  
 System.out.print("Enter a String : "); 
 str=in.nextLine();
  for (i = 0; i < str.length(); i++)
