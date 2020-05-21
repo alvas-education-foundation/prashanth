@@ -7,4 +7,4 @@ for num in range(100,1000):
     temp=temp//10
 
   if sum==num:
-    print (num)
+    print (nnum)
