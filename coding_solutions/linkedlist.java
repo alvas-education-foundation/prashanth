@@ -8,7 +8,7 @@ public static String shortestPalindrome(String str) {
 int x=0;
 int y=str.length()-1;
 
-while(y>=0){
+while(y>=0){ 
 if(str.charAt(x)==str.charAt(y)){
 x++;
 }
