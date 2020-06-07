@@ -13,5 +13,5 @@ def binary_search(item_list,item):
 				first = mid + 1	
 	return found
 	
-list1 = [int(item) for item in input("Enter the number to perform binary search : ").split()
+list1 = [int(item) for item in input("Enter the number to perform binary search : ").split()]
 print(binary_search(list1,len(list1))
