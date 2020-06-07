@@ -4,7 +4,7 @@ def binary_search(item_list,item):
 	found = False
 	while( first<=last and not found):
 		mid = (first + last)//2
-		if item_list[mid] == item :
+		if item_list[mid] == item : 
 			found = True
 		else:
 			if item < item_list[mid]:
