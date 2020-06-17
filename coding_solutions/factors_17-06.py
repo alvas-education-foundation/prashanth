@@ -4,6 +4,6 @@ def print_factors(x):
        if x % i == 0:
            print(i)
 
-num = int(input())
+num = int(input((“Enter the number to find factor”))
 
 print_factors(num)
