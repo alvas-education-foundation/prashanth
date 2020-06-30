@@ -1,0 +1,4 @@
+string = input("Enter your Own String : ")
+string1 = string.swapcase()
+print("\nOriginal String=  ", string)
+print("The Given String After Toggling Case =  ", string1)
